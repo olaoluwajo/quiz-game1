@@ -1,5 +1,3 @@
-
-
 //  Declare & assign variables pointing to the corresponding element(s)
 
 const statement = document.getElementById("statement");
@@ -47,7 +45,6 @@ for (let button of optionButtons) {
     } else {
       button.classList.add("incorrect");
     }
-    // Use a conditional to compare the guess to the fact's answer
-    // and add the "correct"/"incorrect" class as appropriate
+   
   });
 }
